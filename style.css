@@ -1,3 +1,79 @@
+/* Style général */
 body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.head-separation{
+    height: 300px;
+    background-color: wheat;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(28, 28, 28, 0.5);
+    z-index: 100;
+}
+
+.navbar {
+    display: fixed;
+    width: 100%;
+    padding-bottom: 0.25%;
+    padding-left: 0px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s linear;
+}
+
+.nav-links a:hover {
+    color: #ff6347;
+    text-decoration: underline;
+}
+
+/* Style des sections */
+
+.section-first{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("BG_Main.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.section-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #333;
 }
